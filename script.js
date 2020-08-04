@@ -1,7 +1,9 @@
 $(document).ready(function () {
     var jumboTronEl = document.querySelector(".jumbotron");
     var currentTime = moment().format("LLLL");
-    jumbotronEl.append(currentTime)
+    console.log(jumboTronEl)
+    jumboTronEl.append(currentTime)
+    console.log(currentTime)
     
     $(".btn").on("click", function () {
         var element = $(this).parent().siblings(".col-sm-8")
@@ -27,4 +29,20 @@ $(document).ready(function () {
         console.log(hour,inputText)
         $(this).children().val(inputText)
     })
+
+    $( ".row" ).each(function( index ) {
+        let row_id = $(this).attr("id")  
+        let currentHour = moment().hour()
+        let row_time = parseInt(row_id.split("_").pop());
+        if (row_time > currentHour){
+            $(this).css("background-color", "red")
+        } else if (row_time < currentHour) {
+            $(this).css("background-color", "lightgray")
+        } else {
+            $(this).css("background-color", "green")
+        }
+        console.log(row_id);
+        console.log(currentHour)
+        });
+
 })
