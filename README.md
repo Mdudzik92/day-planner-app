@@ -1,8 +1,8 @@
 * Day Planner
 
-<!-- Live link to deployed app -->
-Repository: https://github.com/Mdudzik92/day-planner-app
-Deployed app: mdudzik92.github.io/day-planner-app/
+<!-- Live link to deployed app --><break>
+<p>Repository: https://github.com/Mdudzik92/day-planner-app</p>
+<p>Deployed app: https://mdudzik92.github.io/day-planner-app/</p>
 
 <!-- Technologies used -->
 HTML, CSS, jQuery, JavaScript, Moment
