@@ -1,4 +1,4 @@
-* Day Planner
+<b>Day Planner</b>
 
 <!-- Live link to deployed app --><break>
 <p>Repository: https://github.com/Mdudzik92/day-planner-app</p>
